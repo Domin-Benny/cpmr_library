@@ -6,22 +6,28 @@
 // =============================================
 
 class Database {
-    private $host = "localhost";
-    private $db_name = "cpmr_library";
-    private $username = "root";  // Change as per your setup
-    private $password = "";      // Change as per your setup
+    private $host;
+    private $db_name;
+    private $username;
+    private $password;
+    private $port;
     private $conn;
+
+    public function __construct() {
+        $this->host = getenv("DB_HOST");
+        $this->db_name = getenv("DB_NAME");
+        $this->username = getenv("DB_USER");
+        $this->password = getenv("DB_PASS");
+        $this->port = getenv("DB_PORT");
+    }
 
     // Get database connection
     public function getConnection() {
         $this->conn = null;
 
         try {
-            $this->conn = new PDO(
-                "mysql:host=" . $this->host . ";dbname=" . $this->db_name,
-                $this->username,
-                $this->password
-            );
+            $dsn = "mysql:host={$this->host};port={$this->port};dbname={$this->db_name}";
+            $this->conn = new PDO($dsn, $this->username, $this->password);
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn->exec("set names utf8");
         } catch(PDOException $exception) {
