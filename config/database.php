@@ -14,11 +14,11 @@ class Database {
     private $conn;
 
     public function __construct() {
-        $this->host = getenv("DB_HOST");
-        $this->db_name = getenv("DB_NAME");
-        $this->username = getenv("DB_USER");
-        $this->password = getenv("DB_PASS");
-        $this->port = getenv("DB_PORT");
+        $this->host = getenv("DB_HOST") ?: "localhost";
+        $this->db_name = getenv("DB_NAME") ?: "cpmr_library";
+        $this->username = getenv("DB_USER") ?: "root";
+        $this->password = getenv("DB_PASS") ?: "";
+        $this->port = getenv("DB_PORT") ?: "3306";
     }
 
     // Get database connection
@@ -31,8 +31,9 @@ class Database {
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->conn->exec("set names utf8");
         } catch(PDOException $exception) {
+            // Show the exact error for debugging
             error_log("Connection error: " . $exception->getMessage());
-            throw new Exception("Database connection failed.");
+            die("❌ Database connection failed: " . $exception->getMessage());
         }
 
         return $this->conn;
