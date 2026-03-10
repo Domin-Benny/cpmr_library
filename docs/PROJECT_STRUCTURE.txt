@@ -1,0 +1,1339 @@
+﻿Folder PATH listing
+Volume serial number is 548A-5131
+C:\XAMPP\HTDOCS\CPMR_LIBRARY
+|   .gitattributes
+|   .gitignore
+|   .htaccess
+|   ADMIN_SETTINGS_GUIDE.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   README.md
+|   
++---.git
+|   |   COMMIT_EDITMSG
+|   |   config
+|   |   description
+|   |   FETCH_HEAD
+|   |   HEAD
+|   |   index
+|   |   
+|   +---hooks
+|   |       applypatch-msg.sample
+|   |       commit-msg.sample
+|   |       fsmonitor-watchman.sample
+|   |       post-update.sample
+|   |       pre-applypatch.sample
+|   |       pre-commit.sample
+|   |       pre-merge-commit.sample
+|   |       pre-push.sample
+|   |       pre-rebase.sample
+|   |       pre-receive.sample
+|   |       prepare-commit-msg.sample
+|   |       push-to-checkout.sample
+|   |       sendemail-validate.sample
+|   |       update.sample
+|   |       
+|   +---info
+|   |       exclude
+|   |       
+|   +---logs
+|   |   |   HEAD
+|   |   |   
+|   |   \---refs
+|   |       +---heads
+|   |       |       login
+|   |       |       main
+|   |       |       
+|   |       \---remotes
+|   |           \---origin
+|   |                   HEAD
+|   |                   login
+|   |                   main
+|   |                   
+|   +---objects
+|   |   +---00
+|   |   |       7f1733eedeec0a44ccb72e061342789c079126
+|   |   |       
+|   |   +---01
+|   |   |       510bd24b1b06c27da06fe4ce46e34d5bd2eb58
+|   |   |       
+|   |   +---05
+|   |   |       bb3f198d34e83c7525b502571ec22339349c21
+|   |   |       
+|   |   +---0b
+|   |   |       23013f7f4ea93def2596cb217037e13002d467
+|   |   |       
+|   |   +---0f
+|   |   |       2595b7f642c92f90eb50c9bb916cac37a3eb1e
+|   |   |       
+|   |   +---10
+|   |   |       57c2fd2bac6759d2a030bd000744e26bacb777
+|   |   |       
+|   |   +---11
+|   |   |       2928b38ce11e9679ccb0be4d8499b669868628
+|   |   |       
+|   |   +---14
+|   |   |       0a01d7c30f380ca5dcaa4087328a954809ecf4
+|   |   |       
+|   |   +---15
+|   |   |       66b618487e5971f072fabdfeb75db72eb51e19
+|   |   |       cb82f772c57f8a1864701f2a124810653c8de1
+|   |   |       
+|   |   +---1a
+|   |   |       2aef659cd964659f3987626dde57394870d5c0
+|   |   |       7248c4cb17a710e45b6931c16ce8f877580af8
+|   |   |       
+|   |   +---21
+|   |   |       196b982914a5725a7d166addc4c21d813267b2
+|   |   |       973de265a88115253a2668d594302091b425fb
+|   |   |       
+|   |   +---27
+|   |   |       47d1f8ce46bf32e09e38364763d7ab10174cfb
+|   |   |       
+|   |   +---2b
+|   |   |       a986f6f136f061ad7c345c47245788068e9218
+|   |   |       
+|   |   +---2c
+|   |   |       cfa54435c93d2a1b9ff1d7ab84102abcdcc7d3
+|   |   |       
+|   |   +---32
+|   |   |       29cc808b7bd92d97b81785b81bf64b913b1bec
+|   |   |       6da324b5abde672792f6b6dc5502916fc143c6
+|   |   |       
+|   |   +---33
+|   |   |       79bdb2b9c4b637234e513b7bb49971912560b3
+|   |   |       
+|   |   +---34
+|   |   |       a90a465d739f68664c04dabbf5b2d4f8dea87c
+|   |   |       
+|   |   +---3a
+|   |   |       a7cc7cc3c2c1c195cc0a1e2301f61089333214
+|   |   |       
+|   |   +---3b
+|   |   |       d8e2c9cb72359764a4992ace802ff3969b84cf
+|   |   |       
+|   |   +---42
+|   |   |       39abd632120179bc78e5c3d0b69ed9f3d34b3c
+|   |   |       
+|   |   +---43
+|   |   |       6ee822fa432da73f5481181fe32627ae66462e
+|   |   |       
+|   |   +---54
+|   |   |       f928807062d7692b3e853e4198c4ec6f264a4d
+|   |   |       
+|   |   +---5a
+|   |   |       22355a5681755dd5bf67a96a4cdabc15ba299f
+|   |   |       
+|   |   +---5f
+|   |   |       08f647b0357aac608f79bfc1663af3b7431422
+|   |   |       
+|   |   +---60
+|   |   |       0f052b286d99b6b3fb48ac70806a4c3347add5
+|   |   |       
+|   |   +---66
+|   |   |       b3c4a318b40fd61493b7caaa56c20ed0263674
+|   |   |       
+|   |   +---68
+|   |   |       9ceb3867b23fd65d25105ab780bc416c04071b
+|   |   |       
+|   |   +---6a
+|   |   |       0940ddf38d7bbf229442b35aacc626b9399273
+|   |   |       
+|   |   +---6b
+|   |   |       cb14981ba54c337b019622beabdc2990d52b1f
+|   |   |       
+|   |   +---6c
+|   |   |       073b6e5bf2b3a55568ad84f5b0a258942dcaf6
+|   |   |       
+|   |   +---70
+|   |   |       412f8443e077e16d212b1f3bc1c84ed4eb0388
+|   |   |       
+|   |   +---74
+|   |   |       2987c11579641385a4bc3ff2db125c556c830b
+|   |   |       2a5322b2e7ec6788d3dc98fd97ed01ab9b1d68
+|   |   |       
+|   |   +---76
+|   |   |       b9768b5d3a715f679d676e78042b506d67013a
+|   |   |       
+|   |   +---7b
+|   |   |       166c037d4d2e46f4ab0dece40ffb5cce75d7cd
+|   |   |       
+|   |   +---7f
+|   |   |       fe529cf0457f3cf99118647b9277d5450958bd
+|   |   |       
+|   |   +---86
+|   |   |       ce098e4318c7ceae6d6451dde5dd4595a1c618
+|   |   |       
+|   |   +---92
+|   |   |       a7dd5e15bcff1ce16b018b7229f43e0e9ffde8
+|   |   |       bf7409da0ee25757174ee91b7a9acee9d58741
+|   |   |       
+|   |   +---96
+|   |   |       677d507ab75995c9f7cb7cbcd50d397758c8bd
+|   |   |       
+|   |   +---9f
+|   |   |       101c3aafc4577c5f4a789fac0bfaf511dcc73f
+|   |   |       
+|   |   +---a0
+|   |   |       2339efd60400ab2979ce327b89e3968a6fb738
+|   |   |       
+|   |   +---a1
+|   |   |       f709647525188092ca84013eba0cf57d7cbbfe
+|   |   |       
+|   |   +---a2
+|   |   |       a8ebcc267d73ada526baa4b3d3d15cdbe86e46
+|   |   |       
+|   |   +---aa
+|   |   |       ee705e5d38fa218678d0a25f050a94617f0575
+|   |   |       
+|   |   +---b4
+|   |   |       23f6cf614fe6c138134bf38bee689110bf4cc4
+|   |   |       
+|   |   +---bb
+|   |   |       dcebc7d0dbf65280c953bb36cef8ee36ef6b26
+|   |   |       
+|   |   +---bf
+|   |   |       df6ca862c6bd75d63c97932c47412a4d85d9ac
+|   |   |       
+|   |   +---c2
+|   |   |       2f59b275fcd0698ded8de421987288ef969ab3
+|   |   |       
+|   |   +---c9
+|   |   |       86495577bdaba0e8ace091f07178ea0dfd7153
+|   |   |       
+|   |   +---ca
+|   |   |       41944a2f7994e00ac2536137e99b6d4d93aa1a
+|   |   |       
+|   |   +---cb
+|   |   |       65e94b950f6c5e9e5e1b7ed7e6201b6b9b4204
+|   |   |       
+|   |   +---cc
+|   |   |       4cc90c51d3fc537f195ce2fbe0e6b51eababfe
+|   |   |       
+|   |   +---d2
+|   |   |       cce697c5e76865e297be8de4d51b0895c7cc6d
+|   |   |       
+|   |   +---d6
+|   |   |       4f2a3ba1e26b3212766faed267505bc4e0acc8
+|   |   |       
+|   |   +---dc
+|   |   |       827c64a7f4b5930e86204ffd2f0d7ea7208cba
+|   |   |       
+|   |   +---df
+|   |   |       e0770424b2a19faf507a501ebfc23be8f54e7b
+|   |   |       
+|   |   +---e3
+|   |   |       83812e434772c5fe6cb54c197c3ae46e68b107
+|   |   |       
+|   |   +---e5
+|   |   |       f63fb792d7c46905f3bc4f3d334badd7dfbfdc
+|   |   |       
+|   |   +---e6
+|   |   |       349577d318b5355de2e64e527655af8920c058
+|   |   |       9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|   |   |       
+|   |   +---ec
+|   |   |       15e3479ad5f987f7f5bb2c68227408d06fbb8b
+|   |   |       
+|   |   +---ef
+|   |   |       2555ef0f6b8a3700b5dd06b068d500ca4fa8b1
+|   |   |       
+|   |   +---f7
+|   |   |       2aafb57e2b578a3243b1d8cf9dd0b6541fc2c1
+|   |   |       7aa587da4dfcb4faa8de7fef6ea122e72ba653
+|   |   |       
+|   |   +---fb
+|   |   |       193e592d80888c847ab2452e9a2ccf01a12251
+|   |   |       
+|   |   +---fc
+|   |   |       510775dadb25e17120fec92182533aa7a3cea7
+|   |   |       
+|   |   +---fe
+|   |   |       552058e854e953f16bb54201355eca6166b554
+|   |   |       
+|   |   +---info
+|   |   \---pack
+|   \---refs
+|       +---heads
+|       |       login
+|       |       main
+|       |       
+|       +---remotes
+|       |   \---origin
+|       |           HEAD
+|       |           login
+|       |           main
+|       |           
+|       \---tags
++---.qoder
+|   +---agents
+|   \---skills
++---.vscode
+|       launch.json
+|       
++---backend
+|   +---api
+|   |       admin_security_questions.php
+|   |       api_test.php
+|   |       auth_helper.php
+|   |       books.php
+|   |       books_backup.php
+|   |       borrowing.php
+|   |       borrowing_clean.php
+|   |       categories.php
+|   |       check_user_table.php
+|   |       comprehensive_debug_login.php
+|   |       debug_login.php
+|   |       export.php
+|   |       fix_member_mapping.php
+|   |       forgot_password.php
+|   |       journals.php
+|   |       login.php
+|   |       members.php
+|   |       notifications.php
+|   |       php_test.php
+|   |       policies.php
+|   |       register.php
+|   |       registration_data.php
+|   |       reports.php
+|   |       requests.php
+|   |       settings.php
+|   |       test_db.php
+|   |       test_db_connection.php
+|   |       test_endpoint.php
+|   |       upload_book_cover.php
+|   |       upload_login_background.php
+|   |       upload_profile_picture.php
+|   |       users.php
+|   |       
+|   +---config
+|   +---includes
+|   |       functions.php
+|   |       
+|   +---scripts
+|   |       add_custom_id_column.php
+|   |       add_profile_picture_column.php
+|   |       add_user_id_to_members.php
+|   |       check_table_engines.php
+|   |       create_journals_table.php
+|   |       create_notifications_table.php
+|   |       create_policies_table.php
+|   |       create_requests_table.php
+|   |       
+|   \---uploads
+|       +---book_covers
+|       |       .gitkeep
+|       |       book_cover_699a587287366_1771722866.jfif
+|       |       book_cover_699a5967058b0_1771723111.jpg
+|       |       book_cover_699a5aed03065_1771723501.jpg
+|       |       book_cover_699a5b0679c3d_1771723526.jpg
+|       |       book_cover_699a5c137e9ca_1771723795.jpg
+|       |       book_cover_699a5c5211141_1771723858.jpg
+|       |       book_cover_699a5d5001886_1771724112.jpg
+|       |       book_cover_699a5d537c46e_1771724115.jpg
+|       |       book_cover_699a5d53d3b03_1771724115.jpg
+|       |       book_cover_699a5d543de51_1771724116.jpg
+|       |       book_cover_699a5d54b1a92_1771724116.jpg
+|       |       book_cover_699a5d913bfde_1771724177.jpg
+|       |       book_cover_699a5e7205a34_1771724402.jpg
+|       |       book_cover_699a5e7a9472d_1771724410.jpg
+|       |       book_cover_699a5eba8e764_1771724474.jpg
+|       |       book_cover_699a605d02fe0_1771724893.jpg
+|       |       book_cover_699a60a9af9e6_1771724969.jpg
+|       |       book_cover_699a60adf1b62_1771724973.jpg
+|       |       book_cover_699a6662a0fe5_1771726434.jpg
+|       |       book_cover_699a669581131_1771726485.jpg
+|       |       book_cover_699a67b97c62a_1771726777.jpg
+|       |       book_cover_699a6d7716d85_1771728247.jpg
+|       |       book_cover_699a781b8e2e7_1771730971.jpg
+|       |       book_cover_699a792ce8e07_1771731244.jpg
+|       |       book_cover_699a7970ddeb1_1771731312.jpg
+|       |       book_cover_699a85151a707_1771734293.jpg
+|       |       book_cover_699a87550d0bf_1771734869.jpg
+|       |       book_cover_699a879609305_1771734934.jpg
+|       |       book_cover_699a896cddcb5_1771735404.jpg
+|       |       book_cover_699a8c2028d4e_1771736096.jpg
+|       |       book_cover_699a9066ef29d_1771737190.jpg
+|       |       book_cover_699ac4499ba2d_1771750473.jpg
+|       |       book_cover_699ac5b105de3_1771750833.jfif
+|       |       book_cover_699ad8da38976_1771755738.jfif
+|       |       book_cover_699af4a46b7e8_1771762852.jfif
+|       |       book_cover_699af5442ae9c_1771763012.jfif
+|       |       book_cover_699af7b11ebef_1771763633.jpg
+|       |       book_cover_699afa3c42428_1771764284.jfif
+|       |       book_cover_699afc4a28334_1771764810.jpeg
+|       |       book_cover_699afd0f5b6df_1771765007.jpeg
+|       |       book_cover_699b229155f36_1771774609.jpeg
+|       |       book_cover_699b915852a7b_1771802968.webp
+|       |       book_cover_699cd3275b8e2_1771885351.jpg
+|       |       book_cover_699d838e9ac4c_1771930510.jpg
+|       |       book_cover_699d83bf3fa76_1771930559.jpg
+|       |       book_cover_69a02656c9671_1772103254.jpg
+|       |       book_cover_69a035241860d_1772107044.jpeg
+|       |       book_cover_69a079a52c598_1772124581.webp
+|       |       book_cover_69a16a01d3ed2_1772186113.jpg
+|       |       book_cover_69a395483ef8a_1772328264.webp
+|       |       book_cover_69a395744c9d9_1772328308.webp
+|       |       book_cover_69a40620cd4d7_1772357152.jpg
+|       |       book_cover_69a443f247f3f_1772372978.webp
+|       |       book_cover_69a4deafb21be_1772412591.jpg
+|       |       book_cover_69a4e11c799ee_1772413212.webp
+|       |       book_cover_69a4e137b9844_1772413239.jpg
+|       |       book_cover_69a4e14fc850b_1772413263.webp
+|       |       book_cover_69a4e1635dbec_1772413283.webp
+|       |       book_cover_69a4e17b1ea9f_1772413307.webp
+|       |       book_cover_69a4e1936db83_1772413331.png
+|       |       book_cover_69a4e1b510bbb_1772413365.webp
+|       |       book_cover_69a4e3338ed0c_1772413747.webp
+|       |       book_cover_69a4e3503130d_1772413776.webp
+|       |       book_cover_69a4e3a598225_1772413861.webp
+|       |       book_cover_69a7060d920f9_1772553741.jpg
+|       |       book_cover_69a706b482c46_1772553908.webp
+|       |       
+|       +---journals
+|       |       .gitkeep
+|       |       journal_698bc0068125e6.40201958.pdf
+|       |       journal_698bc9f443b1d9.73695855.pdf
+|       |       journal_698c3e21721607.26252375.pdf
+|       |       journal_698c3e414267c0.34874053.pdf
+|       |       journal_698c400392d212.20207021.pdf
+|       |       journal_698c669720a617.90162114.pdf
+|       |       journal_698c84a5bcd0d9.50281500.pdf
+|       |       journal_69957bb5190513.35837707.pdf
+|       |       journal_699a2a62223105.26236914.pdf
+|       |       journal_699a2a6b52c448.98208451.pdf
+|       |       journal_699a2ebbbe2e76.34072750.pdf
+|       |       journal_699b2385854b66.75310107.pdf
+|       |       journal_69a1683f8c6597.28265500.pdf
+|       |       
+|       \---policies
+|               .gitkeep
+|               policy_69a6140233e878.07613345.pdf
+|               policy_69a6a2dfe52278.13055882.pdf
+|               
++---config
+|       database.php
+|       
++---css
+|       dashboard-redesign.css
+|       modern-design.css
+|       style.css
+|       
++---database
+|       add_admin_security_questions.sql
+|       add_other_role.sql
+|       add_password_reset_columns.sql
+|       cpmr_library.sql
+|       migrations
+|       migration_ui.html
+|       view_protection.sql
+|       
++---docs
+|       ADMIN_PROTECTION_GUIDE.md
+|       ADMIN_SECURITY_QUESTIONS_GUIDE.md
+|       ADMIN_SECURITY_QUESTIONS_INSTALLATION.md
+|       DATABASE_ADMIN_PROTECTION_GUIDE.md
+|       EMERGENCY_REMOVE_ADMIN_PROTECTION.md
+|       IMPLEMENT_PASSWORD_RESET.md
+|       MIGRATION_GUIDE.md
+|       MODERN_EDIT_IMPLEMENTATION.md
+|       NO_AUTH_EDIT_CONFIGURATION.md
+|       PROJECT_STRUCTURE.txt
+|       REMOVAL_SUMMARY.md
+|       SYSTEM_ARCHITECTURE_DIAGRAMS.md
+|       
++---frontend
+|   |   index.html
+|   |   preview_profile.html
+|   |   service-worker.js
+|   |   
+|   +---css
+|   |       dashboard-redesign.css
+|   |       modern-design.css
+|   |       style.css
+|   |       
+|   +---images
+|   |   +---book-covers
+|   |   |       default-book-cover.jfif
+|   |   |       
+|   |   +---journal-covers
+|   |   |       journals.jpeg
+|   |   |       
+|   |   +---login-backgrounds
+|   |   |       cpmr.jpeg.jpeg
+|   |   |       newprofile.jpeg.jpg
+|   |   |       
+|   |   +---logos
+|   |   |       cpmrlogo.jpeg.jfif
+|   |   |       
+|   |   +---policy-covers
+|   |   |       policy_profile.jpeg
+|   |   |       
+|   |   \---profile_pictures
+|   |           cpmr.jpeg.jpg
+|   |           profile_17_1772194314.webp
+|   |           profile_17_1772194763.webp
+|   |           profile_17_1772194918.webp
+|   |           profile_17_1772194936.jpg
+|   |           profile_17_1772195245.webp
+|   |           profile_17_1772195346.jpg
+|   |           profile_17_1772195531.webp
+|   |           profile_17_1772196999.jpeg
+|   |           profile_17_1772197023.jpeg
+|   |           profile_17_1772197053.jpeg
+|   |           profile_17_1772197131.jpeg
+|   |           profile_17_1772197394.jpeg
+|   |           profile_17_1772574564.webp
+|   |           profile_1_1772327518.jpeg
+|   |           profile_1_1772330130.jpeg
+|   |           profile_1_1772363053.webp
+|   |           profile_34_1772388373.jpg
+|   |           profile_34_1772391401.jpg
+|   |           profile_34_1772393628.jpg
+|   |           profile_34_1772399329.jpg
+|   |           profile_34_1772399343.jpg
+|   |           profile_34_1772439664.webp
+|   |           profile_34_1772439679.webp
+|   |           profile_34_1772439694.webp
+|   |           profile_34_1772439874.webp
+|   |           profile_7_1772191796.jpeg
+|   |           profile_7_1772194372.jpg
+|   |           profile_7_1772194408.webp
+|   |           profile_7_1772194418.webp
+|   |           profile_7_1772195569.webp
+|   |           
+|   \---js
+|           book-edit-new.js
+|           book-inline-edit.js
+|           script.js
+|           simple-book-edit.js
+|           
++---images
+|   |   cpmr.jpeg.jpeg
+|   |   
+|   +---cpmrbooks.jpeg
+|   \---profile_pictures
+|       |   .peg.webp
+|       |   81xaJpvapaL._SL1500_.jpg
+|       |   backyard-herbal-apothecary-book.jpg
+|       |   book.jpg
+|       |   borrowing_report_2026-03-02 (1).pdf
+|       |   borrowing_report_2026-03-02.csv
+|       |   borrowing_report_2026-03-02.pdf
+|       |   cpmrlogo.jpeg.jfif
+|       |   Different dried herbs and books on table close up _ Premium Photo.html
+|       |   download.webp
+|       |   Ghanaian_Anticancer_Plants 2 (2) (1).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2) (2).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2) (3).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2) (4).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2) (5).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2) (6).pdf
+|       |   Ghanaian_Anticancer_Plants 2 (2).pdf
+|       |   im2.webp
+|       |   OIF.webp
+|       |   OIP (1)7.webp
+|       |   OIP (1)8.webp
+|       |   OIP.webp
+|       |   trtrtr.webp
+|       |   unnamed.png
+|       |   
+|       \---Different dried herbs and books on table close up _ Premium Photo_files
+|               028dc19dfd4e875f.css
+|               1162-e149ba715446fd7f.js.download
+|               1652-bd526d783701759c.js.download
+|               1821-4909d1a36bb1cbf5.js.download
+|               1954-798eea0f96c49f61.js.download
+|               1991-64689c585df05e25.js.download
+|               2456-23c98b303220ed4b.js.download
+|               2874-d4fdb2dc08e00bbf.js.download
+|               29412b6325956d58.css
+|               3137-8542d14e0d6ac3a4.js.download
+|               4125-decbacba62b23e93.js.download
+|               4182-ac71a6358f2f1d23.js.download
+|               4428-958643640804c8b7.js.download
+|               5235-d6df62f81de9cd7d.js.download
+|               5239-ece25806ba5c94df.js.download
+|               5357-ed492a83c4d96deb.js.download
+|               5492-c541acd4bced04b1.js.download
+|               5817-17e4c5d502e42a3a.js.download
+|               6150-3178409f6ca7746b.js.download
+|               6324-21dcf91487e9dba1.js.download
+|               679-cf03cdd0b2cc2f03.js.download
+|               6805.b0d5ec2ba26fd91c.js.download
+|               7092-91074e39ac764066.js.download
+|               712019a8f8860c3e.css
+|               714.807ab25a2537a4f6.js.download
+|               7498-9842ad2e33c20dd6.js.download
+|               7634-17aea24e0e060547.js.download
+|               7645-b685e39e19b216ce.js.download
+|               7732-1f2a228f6f49bc7b.js.download
+|               8115-85c6a72430e37a34.js.download
+|               8175-9ab3ebbb907b6100.js.download
+|               8780.7bc79c2e0abab4a7.js.download
+|               88b572f1f6aab020.css
+|               8984-048a9ad2fde9b6f4.js.download
+|               959-db4e6d03ee958e12.js.download
+|               a62fc6a3d7a32447.css
+|               ancient-chinese-medicine-books-herbs-table_1112-7937.jpg
+|               assorted-leaves-around-notebook_23-2147931787.jpg
+|               b3a68a157ae3bfa6.css
+|               b5684b5452d8a284.css
+|               browser-perf.8417c6bba72228fa2e29.js.download
+|               c3d998126bd113f5.css
+|               client
+|               concept-different-professional-books-medicine-books_185193-119649.jpg
+|               cup-tea-with-cinnamon-lemon-square-placemat-with-limes-bowl-almonds-tea-strainer-books-white-surface_176474-28073.jpg
+|               different-dried-herbs-books-table-close-up_392895-236342(1).jpg
+|               different-dried-herbs-books-table-close-up_392895-236342.jpg
+|               different-dried-herbs-books-table-close-up_392895-562667.jpg
+|               different-spices-cook-book-wooden-table-close-up_392895-558845.jpg
+|               dried-healing-herbs-scissors-vintage-books-flat-lay-herbal-medicine-concept_440424-1510.jpg
+|               dry-up-plants-book-isolated-white_392895-324085.jpg
+|               dry-up-plants-book-isolated-white_392895-513249.jpg
+|               ef46db3751d8e999.css
+|               floral-composition-with-books_23-2147691054.jpg
+|               framework-235d946df266af2e.js.download
+|               green-smoothie-empty-notepad_23-2148303049.jpg
+|               healing-herbs-scissors-vintage-books-flat-lay-herbal-medicine-concept_440424-1509.jpg
+|               herbal-recipe-books-surrounded-by-fresh-herbs_1020697-567454.jpg
+|               herbal-recipe-books-surrounded-by-fresh-herbs_1020697-567626.jpg
+|               hotjar-1331604.js.download
+|               logo_head.png
+|               main-7593cafa0229388e.js.download
+|               medicinal-herbs-homeopathy-alternative-medicine-selective-focus_73944-62912.jpg
+|               medicinal-herbs-homeopathy-alternative-medicine-selective-focus_73944-62920.jpg
+|               medicinal-plants-book-with-dried-herbs-table-close-up_392895-389198.jpg
+|               modules.ddd41caee2adfc4aedb8.js.download
+|               mortar-pestle-with-pharmaceutical-preparations-s-book-herbs-wooden-pharmacist-table_629685-4981.jpg
+|               notebook-beside-lemon-tea_23-2148555406.jpg
+|               notebook-beside-scoop-bowls-with-herbal-tea_23-2148555470.jpg
+|               notebook-lemon-tea-honey_23-2148555434.jpg
+|               otBannerSdk.js.download
+|               otSDKStub.js.download
+|               polyfills-42372ed130431b0a.js.download
+|               powered_by_logo.svg
+|               saved_resource(1).html
+|               saved_resource(2).html
+|               saved_resource.html
+|               scoop-bowls-with-herbal-tea-beside-notebook_23-2148555472.jpg
+|               scoop-bowls-with-herbal-tea-frame_23-2148555473.jpg
+|               some-herbal-tea-cinnamon-with-books-lemon-spices-green-scarf-wooden-board_176474-28109.jpg
+|               some-herbal-tea-cookies-flowers-with-books-lemon-spices-blue-scarf_176474-28108.jpg
+|               some-herbal-tea-flowers-with-books-lemon-spices-blue-scarf-white-surface_176474-28112.jpg
+|               spoons-frame-with-herbal-tea_23-2148555462.jpg
+|               spoons-with-herbal-tea-beside-notebook_23-2148555461.jpg
+|               style
+|               tea-leaves-notepad-template_23-2148107323.jpg
+|               tea-leaves-notepad-template_23-2148107365.jpg
+|               top-view-beautiful-colorful-flowers-with-leaves-wood-with-copy-space_141793-17056.jpg
+|               top-view-cup-tea-with-kiwi-slices-cinnamon-white-wall-tea-drink-flowers-lemon_140725-72071.jpg
+|               top-view-different-fresh-tea-dried-flavors-grey-desk_140725-75980.jpg
+|               top-view-different-fresh-tea-dried-flavors-grey-desk_140725-75985.jpg
+|               top-view-dried-rose-buds-bucket-with-different-flowers-wood-with-copy-space_141793-17171.jpg
+|               top-view-herbal-tea-herbal-tea-white-cup-white-notebook-lemon-star-anise-cinnamon-sticks-herbs-white-plate_140725-111668.jpg
+|               unnamed.jpg
+|               webpack-556e6bff76808a54.js.download
+|               [...param]-fb6901e56c0bef0c.js.download
+|               _app-268c4781d01b1701.js.download
+|               _buildManifest.js.download
+|               _ssgManifest.js.download
+|               
++---js
+|       book-edit-new.js
+|       script.js
+|       simple-book-edit.js
+|       
++---node_modules
+|   |   .package-lock.json
+|   |   
+|   +---.bin
+|   |       playwright
+|   |       playwright-core
+|   |       playwright-core.cmd
+|   |       playwright-core.ps1
+|   |       playwright.cmd
+|   |       playwright.ps1
+|   |       
+|   +---playwright
+|   |   |   cli.js
+|   |   |   index.d.ts
+|   |   |   index.js
+|   |   |   index.mjs
+|   |   |   jsx-runtime.js
+|   |   |   jsx-runtime.mjs
+|   |   |   LICENSE
+|   |   |   NOTICE
+|   |   |   package.json
+|   |   |   README.md
+|   |   |   test.d.ts
+|   |   |   test.js
+|   |   |   test.mjs
+|   |   |   ThirdPartyNotices.txt
+|   |   |   
+|   |   +---lib
+|   |   |   |   fsWatcher.js
+|   |   |   |   index.js
+|   |   |   |   internalsForTest.js
+|   |   |   |   program.js
+|   |   |   |   util.js
+|   |   |   |   utilsBundle.js
+|   |   |   |   utilsBundleImpl.js
+|   |   |   |   
+|   |   |   +---agents
+|   |   |   |       agentParser.js
+|   |   |   |       copilot-setup-steps.yml
+|   |   |   |       generateAgents.js
+|   |   |   |       playwright-test-coverage.prompt.md
+|   |   |   |       playwright-test-generate.prompt.md
+|   |   |   |       playwright-test-generator.agent.md
+|   |   |   |       playwright-test-heal.prompt.md
+|   |   |   |       playwright-test-healer.agent.md
+|   |   |   |       playwright-test-plan.prompt.md
+|   |   |   |       playwright-test-planner.agent.md
+|   |   |   |       
+|   |   |   +---common
+|   |   |   |       config.js
+|   |   |   |       configLoader.js
+|   |   |   |       esmLoaderHost.js
+|   |   |   |       expectBundle.js
+|   |   |   |       expectBundleImpl.js
+|   |   |   |       fixtures.js
+|   |   |   |       globals.js
+|   |   |   |       ipc.js
+|   |   |   |       poolBuilder.js
+|   |   |   |       process.js
+|   |   |   |       suiteUtils.js
+|   |   |   |       test.js
+|   |   |   |       testLoader.js
+|   |   |   |       testType.js
+|   |   |   |       validators.js
+|   |   |   |       
+|   |   |   +---isomorphic
+|   |   |   |       events.js
+|   |   |   |       folders.js
+|   |   |   |       stringInternPool.js
+|   |   |   |       teleReceiver.js
+|   |   |   |       teleSuiteUpdater.js
+|   |   |   |       testServerConnection.js
+|   |   |   |       testServerInterface.js
+|   |   |   |       testTree.js
+|   |   |   |       types.d.js
+|   |   |   |       
+|   |   |   +---loader
+|   |   |   |       loaderMain.js
+|   |   |   |       
+|   |   |   +---matchers
+|   |   |   |       expect.js
+|   |   |   |       matcherHint.js
+|   |   |   |       matchers.js
+|   |   |   |       toBeTruthy.js
+|   |   |   |       toEqual.js
+|   |   |   |       toHaveURL.js
+|   |   |   |       toMatchAriaSnapshot.js
+|   |   |   |       toMatchSnapshot.js
+|   |   |   |       toMatchText.js
+|   |   |   |       
+|   |   |   +---mcp
+|   |   |   |   |   config.d.js
+|   |   |   |   |   index.js
+|   |   |   |   |   log.js
+|   |   |   |   |   program.js
+|   |   |   |   |   
+|   |   |   |   +---browser
+|   |   |   |   |   |   browserContextFactory.js
+|   |   |   |   |   |   browserServerBackend.js
+|   |   |   |   |   |   config.js
+|   |   |   |   |   |   context.js
+|   |   |   |   |   |   response.js
+|   |   |   |   |   |   sessionLog.js
+|   |   |   |   |   |   tab.js
+|   |   |   |   |   |   tools.js
+|   |   |   |   |   |   watchdog.js
+|   |   |   |   |   |   
+|   |   |   |   |   \---tools
+|   |   |   |   |           common.js
+|   |   |   |   |           console.js
+|   |   |   |   |           dialogs.js
+|   |   |   |   |           evaluate.js
+|   |   |   |   |           files.js
+|   |   |   |   |           form.js
+|   |   |   |   |           install.js
+|   |   |   |   |           keyboard.js
+|   |   |   |   |           mouse.js
+|   |   |   |   |           navigate.js
+|   |   |   |   |           network.js
+|   |   |   |   |           open.js
+|   |   |   |   |           pdf.js
+|   |   |   |   |           runCode.js
+|   |   |   |   |           screenshot.js
+|   |   |   |   |           snapshot.js
+|   |   |   |   |           tabs.js
+|   |   |   |   |           tool.js
+|   |   |   |   |           tracing.js
+|   |   |   |   |           utils.js
+|   |   |   |   |           verify.js
+|   |   |   |   |           wait.js
+|   |   |   |   |           
+|   |   |   |   +---extension
+|   |   |   |   |       cdpRelay.js
+|   |   |   |   |       extensionContextFactory.js
+|   |   |   |   |       protocol.js
+|   |   |   |   |       
+|   |   |   |   +---sdk
+|   |   |   |   |       exports.js
+|   |   |   |   |       http.js
+|   |   |   |   |       inProcessTransport.js
+|   |   |   |   |       server.js
+|   |   |   |   |       tool.js
+|   |   |   |   |       
+|   |   |   |   +---terminal
+|   |   |   |   |       cli.js
+|   |   |   |   |       command.js
+|   |   |   |   |       commands.js
+|   |   |   |   |       daemon.js
+|   |   |   |   |       help.json
+|   |   |   |   |       helpGenerator.js
+|   |   |   |   |       socketConnection.js
+|   |   |   |   |       
+|   |   |   |   \---test
+|   |   |   |           browserBackend.js
+|   |   |   |           generatorTools.js
+|   |   |   |           plannerTools.js
+|   |   |   |           seed.js
+|   |   |   |           streams.js
+|   |   |   |           testBackend.js
+|   |   |   |           testContext.js
+|   |   |   |           testTool.js
+|   |   |   |           testTools.js
+|   |   |   |           
+|   |   |   +---plugins
+|   |   |   |       gitCommitInfoPlugin.js
+|   |   |   |       index.js
+|   |   |   |       webServerPlugin.js
+|   |   |   |       
+|   |   |   +---reporters
+|   |   |   |   |   base.js
+|   |   |   |   |   blob.js
+|   |   |   |   |   dot.js
+|   |   |   |   |   empty.js
+|   |   |   |   |   github.js
+|   |   |   |   |   html.js
+|   |   |   |   |   internalReporter.js
+|   |   |   |   |   json.js
+|   |   |   |   |   junit.js
+|   |   |   |   |   line.js
+|   |   |   |   |   list.js
+|   |   |   |   |   listModeReporter.js
+|   |   |   |   |   markdown.js
+|   |   |   |   |   merge.js
+|   |   |   |   |   multiplexer.js
+|   |   |   |   |   reporterV2.js
+|   |   |   |   |   teleEmitter.js
+|   |   |   |   |   
+|   |   |   |   \---versions
+|   |   |   |           blobV1.js
+|   |   |   |           
+|   |   |   +---runner
+|   |   |   |       dispatcher.js
+|   |   |   |       failureTracker.js
+|   |   |   |       lastRun.js
+|   |   |   |       loaderHost.js
+|   |   |   |       loadUtils.js
+|   |   |   |       processHost.js
+|   |   |   |       projectUtils.js
+|   |   |   |       rebase.js
+|   |   |   |       reporters.js
+|   |   |   |       sigIntWatcher.js
+|   |   |   |       storage.js
+|   |   |   |       taskRunner.js
+|   |   |   |       tasks.js
+|   |   |   |       testGroups.js
+|   |   |   |       testRunner.js
+|   |   |   |       testServer.js
+|   |   |   |       uiModeReporter.js
+|   |   |   |       vcs.js
+|   |   |   |       watchMode.js
+|   |   |   |       workerHost.js
+|   |   |   |       
+|   |   |   +---third_party
+|   |   |   |       pirates.js
+|   |   |   |       tsconfig-loader.js
+|   |   |   |       
+|   |   |   +---transform
+|   |   |   |       babelBundle.js
+|   |   |   |       babelBundleImpl.js
+|   |   |   |       compilationCache.js
+|   |   |   |       esmLoader.js
+|   |   |   |       md.js
+|   |   |   |       portTransport.js
+|   |   |   |       transform.js
+|   |   |   |       
+|   |   |   \---worker
+|   |   |           fixtureRunner.js
+|   |   |           testInfo.js
+|   |   |           testTracing.js
+|   |   |           timeoutManager.js
+|   |   |           util.js
+|   |   |           workerMain.js
+|   |   |           
+|   |   \---types
+|   |           test.d.ts
+|   |           testReporter.d.ts
+|   |           
+|   \---playwright-core
+|       |   browsers.json
+|       |   cli.js
+|       |   index.d.ts
+|       |   index.js
+|       |   index.mjs
+|       |   LICENSE
+|       |   NOTICE
+|       |   package.json
+|       |   README.md
+|       |   ThirdPartyNotices.txt
+|       |   
+|       +---bin
+|       |       install_media_pack.ps1
+|       |       install_webkit_wsl.ps1
+|       |       reinstall_chrome_beta_linux.sh
+|       |       reinstall_chrome_beta_mac.sh
+|       |       reinstall_chrome_beta_win.ps1
+|       |       reinstall_chrome_stable_linux.sh
+|       |       reinstall_chrome_stable_mac.sh
+|       |       reinstall_chrome_stable_win.ps1
+|       |       reinstall_msedge_beta_linux.sh
+|       |       reinstall_msedge_beta_mac.sh
+|       |       reinstall_msedge_beta_win.ps1
+|       |       reinstall_msedge_dev_linux.sh
+|       |       reinstall_msedge_dev_mac.sh
+|       |       reinstall_msedge_dev_win.ps1
+|       |       reinstall_msedge_stable_linux.sh
+|       |       reinstall_msedge_stable_mac.sh
+|       |       reinstall_msedge_stable_win.ps1
+|       |       
+|       +---lib
+|       |   |   androidServerImpl.js
+|       |   |   browserServerImpl.js
+|       |   |   inprocess.js
+|       |   |   inProcessFactory.js
+|       |   |   mcpBundle.js
+|       |   |   outofprocess.js
+|       |   |   utils.js
+|       |   |   utilsBundle.js
+|       |   |   zipBundle.js
+|       |   |   zipBundleImpl.js
+|       |   |   
+|       |   +---cli
+|       |   |       driver.js
+|       |   |       program.js
+|       |   |       programWithTestStub.js
+|       |   |       
+|       |   +---client
+|       |   |       android.js
+|       |   |       api.js
+|       |   |       artifact.js
+|       |   |       browser.js
+|       |   |       browserContext.js
+|       |   |       browserType.js
+|       |   |       cdpSession.js
+|       |   |       channelOwner.js
+|       |   |       clientHelper.js
+|       |   |       clientInstrumentation.js
+|       |   |       clientStackTrace.js
+|       |   |       clock.js
+|       |   |       connection.js
+|       |   |       consoleMessage.js
+|       |   |       coverage.js
+|       |   |       dialog.js
+|       |   |       download.js
+|       |   |       electron.js
+|       |   |       elementHandle.js
+|       |   |       errors.js
+|       |   |       eventEmitter.js
+|       |   |       events.js
+|       |   |       fetch.js
+|       |   |       fileChooser.js
+|       |   |       fileUtils.js
+|       |   |       frame.js
+|       |   |       harRouter.js
+|       |   |       input.js
+|       |   |       jsHandle.js
+|       |   |       jsonPipe.js
+|       |   |       localUtils.js
+|       |   |       locator.js
+|       |   |       network.js
+|       |   |       page.js
+|       |   |       pageAgent.js
+|       |   |       platform.js
+|       |   |       playwright.js
+|       |   |       selectors.js
+|       |   |       stream.js
+|       |   |       timeoutSettings.js
+|       |   |       tracing.js
+|       |   |       types.js
+|       |   |       video.js
+|       |   |       waiter.js
+|       |   |       webError.js
+|       |   |       webSocket.js
+|       |   |       worker.js
+|       |   |       writableStream.js
+|       |   |       
+|       |   +---generated
+|       |   |       bindingsControllerSource.js
+|       |   |       clockSource.js
+|       |   |       injectedScriptSource.js
+|       |   |       pollingRecorderSource.js
+|       |   |       storageScriptSource.js
+|       |   |       utilityScriptSource.js
+|       |   |       webSocketMockSource.js
+|       |   |       
+|       |   +---mcpBundleImpl
+|       |   |       index.js
+|       |   |       
+|       |   +---protocol
+|       |   |       serializers.js
+|       |   |       validator.js
+|       |   |       validatorPrimitives.js
+|       |   |       
+|       |   +---remote
+|       |   |       playwrightConnection.js
+|       |   |       playwrightServer.js
+|       |   |       
+|       |   +---server
+|       |   |   |   artifact.js
+|       |   |   |   browser.js
+|       |   |   |   browserContext.js
+|       |   |   |   browserType.js
+|       |   |   |   callLog.js
+|       |   |   |   clock.js
+|       |   |   |   console.js
+|       |   |   |   cookieStore.js
+|       |   |   |   debugController.js
+|       |   |   |   debugger.js
+|       |   |   |   deviceDescriptors.js
+|       |   |   |   deviceDescriptorsSource.json
+|       |   |   |   dialog.js
+|       |   |   |   dom.js
+|       |   |   |   download.js
+|       |   |   |   errors.js
+|       |   |   |   fetch.js
+|       |   |   |   fileChooser.js
+|       |   |   |   fileUploadUtils.js
+|       |   |   |   formData.js
+|       |   |   |   frames.js
+|       |   |   |   frameSelectors.js
+|       |   |   |   harBackend.js
+|       |   |   |   helper.js
+|       |   |   |   index.js
+|       |   |   |   input.js
+|       |   |   |   instrumentation.js
+|       |   |   |   javascript.js
+|       |   |   |   launchApp.js
+|       |   |   |   localUtils.js
+|       |   |   |   macEditingCommands.js
+|       |   |   |   network.js
+|       |   |   |   page.js
+|       |   |   |   pipeTransport.js
+|       |   |   |   playwright.js
+|       |   |   |   progress.js
+|       |   |   |   protocolError.js
+|       |   |   |   recorder.js
+|       |   |   |   screencast.js
+|       |   |   |   screenshotter.js
+|       |   |   |   selectors.js
+|       |   |   |   socksClientCertificatesInterceptor.js
+|       |   |   |   socksInterceptor.js
+|       |   |   |   transport.js
+|       |   |   |   types.js
+|       |   |   |   usKeyboardLayout.js
+|       |   |   |   videoRecorder.js
+|       |   |   |   
+|       |   |   +---agent
+|       |   |   |       actionRunner.js
+|       |   |   |       actions.js
+|       |   |   |       codegen.js
+|       |   |   |       context.js
+|       |   |   |       expectTools.js
+|       |   |   |       pageAgent.js
+|       |   |   |       performTools.js
+|       |   |   |       tool.js
+|       |   |   |       
+|       |   |   +---android
+|       |   |   |       android.js
+|       |   |   |       backendAdb.js
+|       |   |   |       
+|       |   |   +---bidi
+|       |   |   |   |   bidiBrowser.js
+|       |   |   |   |   bidiChromium.js
+|       |   |   |   |   bidiConnection.js
+|       |   |   |   |   bidiDeserializer.js
+|       |   |   |   |   bidiExecutionContext.js
+|       |   |   |   |   bidiFirefox.js
+|       |   |   |   |   bidiInput.js
+|       |   |   |   |   bidiNetworkManager.js
+|       |   |   |   |   bidiOverCdp.js
+|       |   |   |   |   bidiPage.js
+|       |   |   |   |   bidiPdf.js
+|       |   |   |   |   
+|       |   |   |   \---third_party
+|       |   |   |           bidiCommands.d.js
+|       |   |   |           bidiKeyboard.js
+|       |   |   |           bidiProtocol.js
+|       |   |   |           bidiProtocolCore.js
+|       |   |   |           bidiProtocolPermissions.js
+|       |   |   |           bidiSerializer.js
+|       |   |   |           firefoxPrefs.js
+|       |   |   |           
+|       |   |   +---chromium
+|       |   |   |       appIcon.png
+|       |   |   |       chromium.js
+|       |   |   |       chromiumSwitches.js
+|       |   |   |       crBrowser.js
+|       |   |   |       crConnection.js
+|       |   |   |       crCoverage.js
+|       |   |   |       crDevTools.js
+|       |   |   |       crDragDrop.js
+|       |   |   |       crExecutionContext.js
+|       |   |   |       crInput.js
+|       |   |   |       crNetworkManager.js
+|       |   |   |       crPage.js
+|       |   |   |       crPdf.js
+|       |   |   |       crProtocolHelper.js
+|       |   |   |       crServiceWorker.js
+|       |   |   |       defaultFontFamilies.js
+|       |   |   |       protocol.d.js
+|       |   |   |       
+|       |   |   +---codegen
+|       |   |   |       csharp.js
+|       |   |   |       java.js
+|       |   |   |       javascript.js
+|       |   |   |       jsonl.js
+|       |   |   |       language.js
+|       |   |   |       languages.js
+|       |   |   |       python.js
+|       |   |   |       types.js
+|       |   |   |       
+|       |   |   +---dispatchers
+|       |   |   |       androidDispatcher.js
+|       |   |   |       artifactDispatcher.js
+|       |   |   |       browserContextDispatcher.js
+|       |   |   |       browserDispatcher.js
+|       |   |   |       browserTypeDispatcher.js
+|       |   |   |       cdpSessionDispatcher.js
+|       |   |   |       debugControllerDispatcher.js
+|       |   |   |       dialogDispatcher.js
+|       |   |   |       dispatcher.js
+|       |   |   |       electronDispatcher.js
+|       |   |   |       elementHandlerDispatcher.js
+|       |   |   |       frameDispatcher.js
+|       |   |   |       jsHandleDispatcher.js
+|       |   |   |       jsonPipeDispatcher.js
+|       |   |   |       localUtilsDispatcher.js
+|       |   |   |       networkDispatchers.js
+|       |   |   |       pageAgentDispatcher.js
+|       |   |   |       pageDispatcher.js
+|       |   |   |       playwrightDispatcher.js
+|       |   |   |       streamDispatcher.js
+|       |   |   |       tracingDispatcher.js
+|       |   |   |       webSocketRouteDispatcher.js
+|       |   |   |       writableStreamDispatcher.js
+|       |   |   |       
+|       |   |   +---electron
+|       |   |   |       electron.js
+|       |   |   |       loader.js
+|       |   |   |       
+|       |   |   +---firefox
+|       |   |   |       ffBrowser.js
+|       |   |   |       ffConnection.js
+|       |   |   |       ffExecutionContext.js
+|       |   |   |       ffInput.js
+|       |   |   |       ffNetworkManager.js
+|       |   |   |       ffPage.js
+|       |   |   |       firefox.js
+|       |   |   |       protocol.d.js
+|       |   |   |       
+|       |   |   +---har
+|       |   |   |       harRecorder.js
+|       |   |   |       harTracer.js
+|       |   |   |       
+|       |   |   +---recorder
+|       |   |   |       chat.js
+|       |   |   |       recorderApp.js
+|       |   |   |       recorderRunner.js
+|       |   |   |       recorderSignalProcessor.js
+|       |   |   |       recorderUtils.js
+|       |   |   |       throttledFile.js
+|       |   |   |       
+|       |   |   +---registry
+|       |   |   |       browserFetcher.js
+|       |   |   |       dependencies.js
+|       |   |   |       index.js
+|       |   |   |       nativeDeps.js
+|       |   |   |       oopDownloadBrowserMain.js
+|       |   |   |       
+|       |   |   +---trace
+|       |   |   |   +---recorder
+|       |   |   |   |       snapshotter.js
+|       |   |   |   |       snapshotterInjected.js
+|       |   |   |   |       tracing.js
+|       |   |   |   |       
+|       |   |   |   \---viewer
+|       |   |   |           traceParser.js
+|       |   |   |           traceViewer.js
+|       |   |   |           
+|       |   |   +---utils
+|       |   |   |   |   ascii.js
+|       |   |   |   |   comparators.js
+|       |   |   |   |   crypto.js
+|       |   |   |   |   debug.js
+|       |   |   |   |   debugLogger.js
+|       |   |   |   |   env.js
+|       |   |   |   |   eventsHelper.js
+|       |   |   |   |   expectUtils.js
+|       |   |   |   |   fileUtils.js
+|       |   |   |   |   happyEyeballs.js
+|       |   |   |   |   hostPlatform.js
+|       |   |   |   |   httpServer.js
+|       |   |   |   |   imageUtils.js
+|       |   |   |   |   linuxUtils.js
+|       |   |   |   |   network.js
+|       |   |   |   |   nodePlatform.js
+|       |   |   |   |   pipeTransport.js
+|       |   |   |   |   processLauncher.js
+|       |   |   |   |   profiler.js
+|       |   |   |   |   socksProxy.js
+|       |   |   |   |   spawnAsync.js
+|       |   |   |   |   task.js
+|       |   |   |   |   userAgent.js
+|       |   |   |   |   wsServer.js
+|       |   |   |   |   zipFile.js
+|       |   |   |   |   zones.js
+|       |   |   |   |   
+|       |   |   |   \---image_tools
+|       |   |   |           colorUtils.js
+|       |   |   |           compare.js
+|       |   |   |           imageChannel.js
+|       |   |   |           stats.js
+|       |   |   |           
+|       |   |   \---webkit
+|       |   |           protocol.d.js
+|       |   |           webkit.js
+|       |   |           wkBrowser.js
+|       |   |           wkConnection.js
+|       |   |           wkExecutionContext.js
+|       |   |           wkInput.js
+|       |   |           wkInterceptableRequest.js
+|       |   |           wkPage.js
+|       |   |           wkProvisionalPage.js
+|       |   |           wkWorkers.js
+|       |   |           
+|       |   +---third_party
+|       |   |       pixelmatch.js
+|       |   |       
+|       |   +---utils
+|       |   |   \---isomorphic
+|       |   |       |   ariaSnapshot.js
+|       |   |       |   assert.js
+|       |   |       |   colors.js
+|       |   |       |   cssParser.js
+|       |   |       |   cssTokenizer.js
+|       |   |       |   headers.js
+|       |   |       |   locatorGenerators.js
+|       |   |       |   locatorParser.js
+|       |   |       |   locatorUtils.js
+|       |   |       |   lruCache.js
+|       |   |       |   manualPromise.js
+|       |   |       |   mimeType.js
+|       |   |       |   multimap.js
+|       |   |       |   protocolFormatter.js
+|       |   |       |   protocolMetainfo.js
+|       |   |       |   rtti.js
+|       |   |       |   selectorParser.js
+|       |   |       |   semaphore.js
+|       |   |       |   stackTrace.js
+|       |   |       |   stringUtils.js
+|       |   |       |   time.js
+|       |   |       |   timeoutRunner.js
+|       |   |       |   traceUtils.js
+|       |   |       |   types.js
+|       |   |       |   urlMatch.js
+|       |   |       |   utilityScriptSerializers.js
+|       |   |       |   yaml.js
+|       |   |       |   
+|       |   |       \---trace
+|       |   |           |   entries.js
+|       |   |           |   snapshotRenderer.js
+|       |   |           |   snapshotServer.js
+|       |   |           |   snapshotStorage.js
+|       |   |           |   traceLoader.js
+|       |   |           |   traceModel.js
+|       |   |           |   traceModernizer.js
+|       |   |           |   
+|       |   |           \---versions
+|       |   |                   traceV3.js
+|       |   |                   traceV4.js
+|       |   |                   traceV5.js
+|       |   |                   traceV6.js
+|       |   |                   traceV7.js
+|       |   |                   traceV8.js
+|       |   |                   
+|       |   +---utilsBundleImpl
+|       |   |       index.js
+|       |   |       xdg-open
+|       |   |       
+|       |   \---vite
+|       |       +---htmlReport
+|       |       |       index.html
+|       |       |       
+|       |       +---recorder
+|       |       |   |   index.html
+|       |       |   |   playwright-logo.svg
+|       |       |   |   
+|       |       |   \---assets
+|       |       |           codeMirrorModule-DadYNm1I.js
+|       |       |           codeMirrorModule-DYBRYzYX.css
+|       |       |           codicon-DCmgc-ay.ttf
+|       |       |           index-BhTWtUlo.js
+|       |       |           index-BSjZa4pk.css
+|       |       |           
+|       |       \---traceViewer
+|       |           |   codeMirrorModule.DYBRYzYX.css
+|       |           |   codicon.DCmgc-ay.ttf
+|       |           |   defaultSettingsView.7ch9cixO.css
+|       |           |   index.BDwrLSGN.js
+|       |           |   index.BVu7tZDe.css
+|       |           |   index.html
+|       |           |   manifest.webmanifest
+|       |           |   playwright-logo.svg
+|       |           |   snapshot.html
+|       |           |   sw.bundle.js
+|       |           |   uiMode.Btcz36p_.css
+|       |           |   uiMode.CQJ9SCIQ.js
+|       |           |   uiMode.html
+|       |           |   xtermModule.DYP7pi_n.css
+|       |           |   
+|       |           \---assets
+|       |                   codeMirrorModule-a5XoALAZ.js
+|       |                   defaultSettingsView-CJSZINFr.js
+|       |                   xtermModule-CsJ4vdCR.js
+|       |                   
+|       \---types
+|               protocol.d.ts
+|               structs.d.ts
+|               types.d.ts
+|               
+\---scripts
+        admin_protection_evidence.php
+        check_admin_users.php
+        check_procedure.php
+        check_trigger.php
+        install_protection_simple.php
+        migrate_add_other_role.php
+        run_admin_protection_migration.php
+        run_migration.php
+        setup_admin_security_questions.php
+        show_protection.php
+        test_delete_protection.php
+        

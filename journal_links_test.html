@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Link Cards - Test Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-card {
+            display: inline-block;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+        .link-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px;
+            cursor: pointer;
+        }
+        .pdf-card {
+            background: url('images/journal-covers/journals.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        button {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔗 Journal Link Cards - Test Page</h1>
+        <p>Verify that the journal link cards feature is working correctly</p>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 1: Visual Design Comparison</h2>
+        <p>Link cards should have purple gradient, PDF journals should have journal cover image</p>
+        
+        <div class="test-card link-card">
+            <div style="position: relative;">
+                <div style="position: absolute; top: 10px; right: 10px; background: rgba(255,255,255,0.9); border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; font-size: 16px;">🔗</div>
+                <h3 style="margin-bottom: 10px;">Example Link Card</h3>
+                <p style="font-size: 13px; margin-bottom: 15px;">This is how link cards will look with purple gradient background</p>
+                <button style="width: 100%;">🌐 Visit Website</button>
+            </div>
+        </div>
+
+        <div class="test-card pdf-card">
+            <div style="position: relative; z-index: 1; padding: 18px; background: rgba(255, 255, 255, 0.85); min-height: 164px;">
+                <h3 style="margin-bottom: 10px; color: #000;">PDF Journal Card</h3>
+                <p style="font-size: 13px; color: #333; margin-bottom: 15px;">This is how PDF journals look with journal cover background</p>
+                <button style="width: 100%; background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);">📥 Download</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 2: Database Connection</h2>
+        <button onclick="testDatabase()">Test Database Table</button>
+        <div id="dbResult"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 3: API Endpoints</h2>
+        <button onclick="testGetLinks()">Test Get Links API</button>
+        <div id="apiResult"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 4: Upload Interface</h2>
+        <p>Open the main application and click "Upload Journal (PDF)" button</p>
+        <p>You should see:</p>
+        <ul>
+            <li>✅ A dropdown to select "PDF Journal" or "External Link Card"</li>
+            <li>✅ When "External Link Card" is selected, show link form fields</li>
+            <li>✅ When "PDF Journal" is selected, show PDF file upload field</li>
+        </ul>
+    </div>
+
+    <script>
+        async function testDatabase() {
+            const resultDiv = document.getElementById('dbResult');
+            resultDiv.innerHTML = '<div class="status info">Testing database connection...</div>';
+            
+            try {
+                // Note: This is a client-side test, actual verification requires backend
+                resultDiv.innerHTML = `
+                    <div class="status success">
+                        ✅ Database table 'journal_links' should exist<br>
+                        📋 Expected columns: link_id, name, url, description, uploaded_by, created_at
+                    </div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="status error">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        async function testGetLinks() {
+            const resultDiv = document.getElementById('apiResult');
+            resultDiv.innerHTML = '<div class="status info">Testing API endpoint...</div>';
+            
+            try {
+                // This would require authentication in the real app
+                resultDiv.innerHTML = `
+                    <div class="status info">
+                        To test the API:<br>
+                        1. Login to the application<br>
+                        2. Open browser console<br>
+                        3. Run: fetch('/cpmr_library/backend/api/journals.php?action=get_links')<br>
+                        4. Check response for links array
+                    </div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="status error">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        // Visual test - make cards clickable
+        document.querySelector('.link-card').addEventListener('click', function() {
+            alert('In the real app, this would open: https://example.com');
+        });
+    </script>
+</body>
+</html>

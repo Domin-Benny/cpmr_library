@@ -1,0 +1,663 @@
+/* =============================================
+   CPMR Library Management System - Dashboard Redesign
+   File: frontend/css/dashboard-redesign.css
+   Description: Enhanced dashboard layouts for all user roles
+============================================= */
+
+/* CSS Variables for Dashboard Themes */
+:root {
+    /* Admin Dashboard Theme - Executive Blue */
+    --admin-primary: #1976d2;
+    --admin-secondary: #1565c0;
+    --admin-accent: #2196f3;
+    --admin-light: #bbdefb;
+    --admin-text: #0d47a1;
+    
+    /* Librarian Dashboard Theme - Library Green */
+    --librarian-primary: #388e3c;
+    --librarian-secondary: #2e7d32;
+    --librarian-accent: #4caf50;
+    --librarian-light: #c8e6c9;
+    --librarian-text: #1b5e20;
+    
+    /* Staff Dashboard Theme - Professional Gray */
+    --staff-primary: #616161;
+    --staff-secondary: #424242;
+    --staff-accent: #757575;
+    --staff-light: #eeeeee;
+    --staff-text: #212121;
+    
+
+    
+    /* Common variables */
+    --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --card-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.15);
+    --transition-standard: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base Dashboard Container Styles */
+.dashboard-container {
+    padding: 25px;
+    width: 100%;
+    min-height: calc(100vh - 130px);
+}
+
+/* Role-specific Dashboard Headers */
+.admin-dashboard .page-header {
+    background: linear-gradient(135deg, var(--admin-primary), var(--admin-secondary));
+    border-left: 6px solid var(--admin-accent);
+}
+
+.librarian-dashboard .page-header {
+    background: linear-gradient(135deg, var(--librarian-primary), var(--librarian-secondary));
+    border-left: 6px solid var(--librarian-accent);
+}
+
+.staff-dashboard .page-header {
+    background: linear-gradient(135deg, var(--staff-primary), var(--staff-secondary));
+    border-left: 6px solid var(--staff-accent);
+}
+
+.other-dashboard .page-header {
+    background: linear-gradient(135deg, var(--staff-primary), var(--staff-secondary));
+    border-left: 6px solid var(--staff-accent);
+}
+
+
+
+/* Enhanced Dashboard Grid Layouts */
+.dashboard-grid-enhanced {
+    display: grid;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+/* Admin Dashboard Layout - 3 Columns */
+.admin-dashboard .dashboard-grid-enhanced {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/* Librarian Dashboard Layout - 2 Columns */
+.librarian-dashboard .dashboard-grid-enhanced {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/* Staff Dashboard Layout - 2 Columns Simplified */
+.staff-dashboard .dashboard-grid-enhanced {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Other Dashboard Layout - 2 Columns Simplified */
+.other-dashboard .dashboard-grid-enhanced {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Enhanced Stat Cards */
+.stat-card-enhanced {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition-standard);
+    position: relative;
+    overflow: hidden;
+    border-top: 4px solid;
+}
+
+.stat-card-enhanced:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.stat-card-enhanced::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+}
+
+/* Role-specific Card Styling */
+.admin-dashboard .stat-card-enhanced {
+    border-top-color: var(--admin-primary);
+}
+
+.librarian-dashboard .stat-card-enhanced {
+    border-top-color: var(--librarian-primary);
+}
+
+.staff-dashboard .stat-card-enhanced {
+    border-top-color: var(--staff-primary);
+}
+
+/* Enhanced Stat Card Content */
+.stat-card-enhanced .stat-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+
+.admin-dashboard .stat-card-enhanced .stat-icon {
+    color: var(--admin-accent);
+}
+
+.librarian-dashboard .stat-card-enhanced .stat-icon {
+    color: var(--librarian-accent);
+}
+
+.staff-dashboard .stat-card-enhanced .stat-icon {
+    color: var(--staff-accent);
+}
+
+.stat-card-enhanced .stat-label {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.stat-card-enhanced .stat-value {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.admin-dashboard .stat-card-enhanced .stat-value {
+    color: var(--admin-primary);
+}
+
+.librarian-dashboard .stat-card-enhanced .stat-value {
+    color: var(--librarian-primary);
+}
+
+.staff-dashboard .stat-card-enhanced .stat-value {
+    color: var(--staff-primary);
+}
+
+/* Quick Action Buttons */
+.quick-actions-panel {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 30px;
+}
+
+.quick-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.quick-action-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: var(--white);
+    border: 2px solid;
+    cursor: pointer;
+    transition: var(--transition-standard);
+    text-align: center;
+    min-height: 120px;
+}
+
+.quick-action-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.quick-action-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.quick-action-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Role-specific Quick Actions */
+.admin-dashboard .quick-action-btn {
+    border-color: var(--admin-light);
+    color: var(--admin-text);
+}
+
+.admin-dashboard .quick-action-btn:hover {
+    background: var(--admin-light);
+    border-color: var(--admin-primary);
+}
+
+.librarian-dashboard .quick-action-btn {
+    border-color: var(--librarian-light);
+    color: var(--librarian-text);
+}
+
+.librarian-dashboard .quick-action-btn:hover {
+    background: var(--librarian-light);
+    border-color: var(--librarian-primary);
+}
+
+.staff-dashboard .quick-action-btn {
+    border-color: var(--staff-light);
+    color: var(--staff-text);
+}
+
+.staff-dashboard .quick-action-btn:hover {
+    background: var(--staff-light);
+    border-color: var(--staff-primary);
+}
+
+/* Recent Activity Section */
+.recent-activity-panel {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 30px;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.activity-item:last-child {
+    border-bottom: none;
+}
+
+.activity-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.activity-content {
+    flex: 1;
+}
+
+.activity-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.activity-description {
+    color: #666;
+    font-size: 13px;
+    margin: 0;
+}
+
+.activity-time {
+    color: #999;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+/* Role-specific Activity Colors */
+.admin-dashboard .activity-icon {
+    background: var(--admin-light);
+    color: var(--admin-primary);
+}
+
+.librarian-dashboard .activity-icon {
+    background: var(--librarian-light);
+    color: var(--librarian-primary);
+}
+
+.staff-dashboard .activity-icon {
+    background: var(--staff-light);
+    color: var(--staff-primary);
+}
+
+/* Welcome Banner */
+.welcome-banner {
+    background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(255,255,255,0.7));
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-left: 6px solid;
+    box-shadow: var(--card-shadow);
+}
+
+.admin-dashboard .welcome-banner {
+    border-left-color: var(--admin-primary);
+}
+
+.librarian-dashboard .welcome-banner {
+    border-left-color: var(--librarian-primary);
+}
+
+.staff-dashboard .welcome-banner {
+    border-left-color: var(--staff-primary);
+}
+
+.welcome-banner h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.welcome-banner p {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .dashboard-grid-enhanced {
+        gap: 20px;
+    }
+    
+    .admin-dashboard .dashboard-grid-enhanced {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    
+    .librarian-dashboard .dashboard-grid-enhanced {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 15px;
+    }
+    
+    .dashboard-grid-enhanced {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .stat-card-enhanced {
+        padding: 20px;
+    }
+    
+    .stat-card-enhanced .stat-value {
+        font-size: 28px;
+    }
+    
+    .quick-actions-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .quick-action-btn {
+        padding: 15px 10px;
+        min-height: 100px;
+    }
+    
+    .activity-item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .activity-time {
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-actions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-card-enhanced .stat-icon {
+        font-size: 32px;
+    }
+    
+    .stat-card-enhanced .stat-value {
+        font-size: 24px;
+    }
+    
+    .welcome-banner h2 {
+        font-size: 20px;
+    }
+}
+
+/* Visual Enhancement for Existing Dashboard - No Functional Changes */
+
+/* Enhanced Card Styles */
+.stat-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced Button Styles */
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--light-green), #388e3c);
+}
+
+.btn-secondary {
+    border: 2px solid var(--light-green);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Enhanced Table Styles */
+.table-container {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.table-header {
+    border-radius: 12px 12px 0 0;
+    padding: 20px 25px;
+}
+
+th, td {
+    padding: 16px 20px;
+}
+
+/* Enhanced Page Header */
+.page-header {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px 35px;
+    margin-bottom: 35px;
+}
+
+.page-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* Enhanced Action Buttons Section */
+.action-buttons {
+    gap: 15px;
+    margin-bottom: 35px;
+    padding: 20px 0;
+}
+
+.action-buttons .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+}
+
+/* Enhanced Grid Layout */
+.dashboard-grid {
+    gap: 25px;
+    margin-bottom: 35px;
+}
+
+.stat-card {
+    padding: 30px 25px;
+    border-left-width: 5px;
+}
+
+/* Enhanced Icon Styles */
+.stat-icon {
+    font-size: 36px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover .stat-icon {
+    transform: scale(1.1);
+}
+
+/* Enhanced Text Styles */
+.stat-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+/* Search Box Enhancement */
+.search-box input {
+    border-radius: 8px;
+    padding: 12px 18px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.search-box input:focus {
+    border-color: var(--light-green);
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2);
+}
+
+/* Enhanced Typography */
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+}
+
+.page-header p {
+    font-size: 15px;
+    opacity: 0.95;
+    font-weight: 400;
+}
+
+.table-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Role-Specific Enhancements - Visual Only */
+.stat-card[data-role*="admin"] {
+    background: linear-gradient(135deg, rgba(25, 118, 210, 0.03), white);
+    border-left-color: #1976d2;
+}
+
+.stat-card[data-role*="librarian"] {
+    background: linear-gradient(135deg, rgba(56, 142, 60, 0.03), white);
+    border-left-color: #388e3c;
+}
+
+.stat-card[data-role*="staff"] {
+    background: linear-gradient(135deg, rgba(97, 97, 97, 0.03), white);
+    border-left-color: #616161;
+}
+
+.stat-card[data-role*="other"] {
+    background: linear-gradient(135deg, rgba(156, 39, 176, 0.03), white);
+    border-left-color: #9c27b0;
+}
+
+
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 25px 20px;
+        margin-bottom: 25px;
+    }
+    
+    .page-header h2 {
+        font-size: 26px;
+    }
+    
+    .dashboard-grid {
+        gap: 20px;
+    }
+    
+    .stat-card {
+        padding: 25px 20px;
+    }
+    
+    .stat-value {
+        font-size: 28px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .action-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-card {
+        padding: 20px 15px;
+    }
+    
+    .stat-icon {
+        font-size: 32px;
+    }
+    
+    .stat-value {
+        font-size: 24px;
+    }
+    
+    th, td {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+}

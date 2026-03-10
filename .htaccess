@@ -1,0 +1,13 @@
+# Enable PHP processing
+AddType application/x-httpd-php .php
+
+# Allow access to all files
+Order allow,deny
+Allow from all
+
+# Enable URL rewriting if needed
+RewriteEngine On
+
+# Pass Authorization header to PHP in multipart requests
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%1]

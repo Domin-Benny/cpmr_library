@@ -1,0 +1,54 @@
+# CPMR Library - Git Ignore File
+
+# Dependencies
+node_modules/
+vendor/
+
+# Configuration files (sensitive)
+config/local_config.php
+.env
+.htaccess.local
+
+# Uploaded files (user-generated content)
+backend/uploads/book_covers/*
+!backend/uploads/book_covers/.gitkeep
+backend/uploads/journals/*
+!backend/uploads/journals/.gitkeep
+backend/uploads/policies/*
+!backend/uploads/policies/.gitkeep
+frontend/images/profile_pictures/*
+!frontend/images/profile_pictures/.gitkeep
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+temp/
+
+# Cache files
+cache/
+*.cache
+
+# Database dumps (if not version controlled)
+database/dumps/
+*.sql.dump
+
+# Build outputs
+dist/
+build/
+
+# Test files (optional)
+tests/coverage/
+.phpunit.result.cache

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Send Feedback</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;background:#f7f7f7;padding:30px}
+    .card{max-width:700px;margin:30px auto;padding:22px;background:#fff;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.08)}
+    input,textarea{width:100%;padding:10px;margin:8px 0;border:1px solid #ddd;border-radius:6px}
+    button{background:#2196f3;color:#fff;padding:10px 16px;border:none;border-radius:6px;cursor:pointer}
+    .note{font-size:13px;color:#666}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p class="note">Use this form to send feedback. Your message will be emailed to the team.</p>
+    <form id="feedbackForm">
+      <label>Name (optional)</label>
+      <input type="text" name="name" id="name" placeholder="Your name">
+
+      <label>Your Email (optional)</label>
+      <input type="email" name="email" id="email" placeholder="you@example.com">
+
+      <label>Subject</label>
+      <input type="text" name="subject" id="subject" value="Feedback from site">
+
+      <label>Message</label>
+      <textarea name="message" id="message" rows="6" required></textarea>
+
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+        <button type="submit">Send Feedback</button>
+        <div id="status" style="font-size:14px;color:#333"></div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById('feedbackForm');
+    const status = document.getElementById('status');
+    form.addEventListener('submit', async function(e){
+      e.preventDefault();
+      status.textContent = 'Sending...';
+      const payload = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value
+      };
+      try {
+        const res = await fetch('/cpmr_library/backend/api/send_feedback.php', {
+          method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(payload)
+        });
+        const json = await res.json();
+        if (json.ok) {
+          status.style.color = 'green';
+          status.textContent = 'Message sent — thank you.';
+          form.reset();
+        } else {
+          status.style.color = 'red';
+          status.textContent = json.message || 'Failed to send';
+        }
+      } catch (err) {
+        status.style.color = 'red';
+        status.textContent = 'Network error';
+      }
+    });
+  </script>
+</body>
+</html>
